@@ -1,37 +1,72 @@
-*{
-    background-color: rgb(28, 25, 30);
-    color: antiquewhite !important;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+body{
+    font-family: sans-serif;
+    margin: 0;
 }
 
-#name{
-    color: rgb(127, 140, 32) !important;
-    padding-top: 20px;
-    font-size: 50px;
-    text-align: center;
+a{
+    text-decoration: none;
+    color: rgb(3, 2, 2);
+    padding-right: 15px;
+    font-weight: 600;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(5, 155, 85);
+    justify-content: space-between;
     align-items: center;
-    float: none;
-    margin-right: auto
+    padding: 3px;
 }
 
-div h2{
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 45px;
+    padding-right: 10px;
+}
+
+.name{
+    font-size: 25px;
+}
+
+nav a:hover{
+    color: rgb(245, 245, 245)
+}
+
+.img-description{
+    width:100%;
+    height: 800px;
+}
+
+.title-secondary{
     text-align: center;
-    background-color: rgba(5, 85, 50, 0.637);
-    padding: 50px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 36px;
+    font-weight: 2000;
 }
 
-#backmenu{
-    background-image: url(../static/images/fondomenu.jpg);
-    padding: 10px;
-}
-.card:hover{
-    border-color: rgb(183, 255, 198);
-    border-width: 3px;
+.paragraph{
+    text-align: center;
+    font-weight: 600;
 }
 
+footer{
+    background-color:  rgb(5, 155, 85);
+    padding: 20px;
+    color: rgb(3, 2, 2);
+    font-weight: 600;
+}
 
+footer p{
+    margin: 0;
+}
 
+footer section{
+    float: right;
+}
 
+.end-pag:hover{
+    color: rgb(245, 245, 245)
+}
